@@ -1,0 +1,171 @@
+﻿id,language,text,label,scam_type,split
+CS-S004,Code-switched,Caller: Aapka account reactivate karne ke liye ek chhoti si processing fee UPI se bhejni hogi.,SCAM,FINANCIAL_REQUEST,train
+EN-B009,English,"Person A: I'm a little hungry, should we order something?",BENIGN,BENIGN,train
+CS-B013,Code-switched,"Person A: Train late ho gayi hai, mujhe agli train pakadni padegi.",BENIGN,BENIGN,validation
+HI-B008,Hindi,"Person A: मेरा फोन चार्ज नहीं है, इसलिए थोड़ी देर से जवाब दूंगा।",BENIGN,BENIGN,train
+HI-S006,Hindi,"Caller: कृपया कॉल डिस्कनेक्ट न करें और बैंक शाखा को भी इस बारे में सूचित न करें, वरना जांच प्रभावित होगी।
+Person A: क्या मैं अपने पति को बता सकती हूं?
+Caller: नहीं, यह पूरी तरह गोपनीय रखना जरूरी है।",SCAM,SECRECY_DEMAND,train
+CS-S005,Code-switched,"Caller: Please aapke phone pe aaya OTP mujhe bata dijiye taki verification complete ho sake.
+Person A: Pan OTP toh confidential asतो na?
+Caller: Hा phakt aamchya system साठी aahे, काळजी karू नका.",SCAM,FINANCIAL_REQUEST,train
+HI-S007,Hindi,Caller: आपके खाते को दोबारा सक्रिय करने के लिए एक छोटी सी प्रोसेसिंग फीस यूपीआई से भेजनी होगी।,SCAM,FINANCIAL_REQUEST,train
+MR-S016,Marathi,Caller: आज संध्याकाळपर्यंत उत्तर न मिळाल्यास तुमचे वीज कनेक्शन तोडले जाईल.,SCAM,URGENCY_THREAT,test
+MR-S002,Marathi,"Caller: हे आयकर विभागाशी संबंधित प्रकरण आहे. तुमच्या पॅन कार्डवर संशयास्पद व्यवहार आढळला आहे.
+Person A: मला याबद्दल काहीच माहिती नाही.
+Caller: तेच तपासण्यासाठी तुम्हाला या कॉलवर थांबावे लागेल.",SCAM,AUTHORITY_IMPERSONATION,train
+CS-S003,Code-switched,Caller: Aaj shaam tak reply nahi mila toh tumcha electricity connection cut ho jayega.,SCAM,URGENCY_THREAT,train
+HI-S010,Hindi,Caller: मैं बैंक की फ्रॉड डिपार्टमेंट से बात कर रहा हूं। आपके खाते से जुड़ी एक केस फाइल खोली गई है।,SCAM,AUTHORITY_IMPERSONATION,train
+HI-S012,Hindi,Caller: रिफंड प्रोसेस करने के लिए आपको अपना कार्ड नंबर और सीवीवी बताना होगा।,SCAM,FINANCIAL_REQUEST,validation
+CS-B010,Code-switched,"Person A: Parcel aaj pahunchne wala hai, aaye toh bata dena.",BENIGN,BENIGN,train
+CS-S013,Code-switched,"Caller: Ma'am yeh Income Tax ka matter hai. Aapke PAN card pe suspicious transaction dikha hai.
+Person A: Mujhe toh kuch pata hi nahi.
+Caller: Bas isiliye verification zaroori hai, call pe rahiye.",SCAM,AUTHORITY_IMPERSONATION,validation
+HI-S004,Hindi,"Caller: आपके नाम पर गिरफ्तारी वारंट जारी होने वाला है। इसे रोकने के लिए तुरंत जांच में शामिल होना होगा।
+Person A: यह तो बहुत डरावना है, मुझे क्या करना होगा?
+Caller: घबराइए मत, बस कॉल पर बने रहिए।",SCAM,URGENCY_THREAT,train
+EN-S005,English,"Caller: This case will only be closed once the fine is paid, please make the payment to the number provided.",SCAM,FINANCIAL_REQUEST,train
+HI-B002,Hindi,"Person A: मैंने खाना बना लिया है, तुम कब तक आओगे?",BENIGN,BENIGN,train
+EN-B008,English,"Person A: My train got delayed, I'll have to catch the next one.",BENIGN,BENIGN,train
+CS-S010,Code-switched,"Caller: Yeh inquiry bilkul confidential hai, please family mein kisi ko mat batana.",SCAM,SECRECY_DEMAND,train
+MR-S011,Marathi,Caller: हे कस्टम विभागाचे प्रकरण आहे. तुमच्या नावाने पाठवलेले एक पार्सल तपासणीत अडवले गेले आहे.,SCAM,AUTHORITY_IMPERSONATION,train
+EN-B010,English,"Person A: The school called saying my child isn't feeling well, I need to go right now.",BENIGN,BENIGN,train
+MR-S009,Marathi,"Caller: तुमच्या नावावर अटक वॉरंट जारी होणार आहे. हे थांबवण्यासाठी तात्काळ चौकशीत सहभागी व्हावे लागेल.
+Person A: हे तर खूप भीतीदायक आहे, मी काय करू?
+Caller: घाबरू नका, फक्त कॉलवर रहा.",SCAM,URGENCY_THREAT,train
+CS-S006,Code-switched,"Caller: Sir main Cyber Crime department se bol raha hoon. Aapke naam pe ek complaint aayi hai, isliye cooperate karna padega.",SCAM,AUTHORITY_IMPERSONATION,train
+MR-S014,Marathi,"Caller: ही चौकशी पूर्णपणे गोपनीय आहे, कृपया याबद्दल कुटुंबातील कोणालाही सांगू नका.",SCAM,SECRECY_DEMAND,test
+CS-B005,Code-switched,"Person A: Kal ki meeting kis time hai, thoda remind kar dena.",BENIGN,BENIGN,train
+EN-B014,English,"Person A: I've made dinner, when will you be home?",BENIGN,BENIGN,test
+MR-B016,Marathi,"Person A: मला थोडी भूक लागली आहे, काहीतरी ऑर्डर करूया का?",BENIGN,BENIGN,test
+HI-B011,Hindi,"Person A: मैंने खुद बैंक को कॉल किया था कार्ड ब्लॉक करने के लिए, उन्होंने कहा प्रक्रिया पूरी होने में कुछ मिनट लगेंगे।",BENIGN,BENIGN,train
+HI-B015,Hindi,"Person A: स्कूल से फोन आया कि बच्चे की तबीयत ठीक नहीं है, मुझे अभी जाना होगा।",BENIGN,BENIGN,test
+CS-B015,Code-switched,"Person A: Clinic se call aaya tha, appointment 20 minute mein hai, jaldi nikalna hoga.
+Person B: Theek hai, main abhi gaadi nikalta hoon.",BENIGN,BENIGN,test
+MR-S003,Marathi,"Caller: कृपया तुमच्या फोनवर आलेला OTP मला सांगा जेणेकरून आम्ही पडताळणी पूर्ण करू शकू.
+Person A: पण OTP तर गोपनीय असतो ना?
+Caller: हा फक्त आमच्या सिस्टीमसाठी आहे, काळजी करू नका.",SCAM,FINANCIAL_REQUEST,train
+CS-B007,Code-switched,"Person A: College cha assignment kal submit karायचा aahे, ajun पूर्ण nahi zala.",BENIGN,BENIGN,train
+CS-B002,Code-switched,"Person A: Thodi bhookh lagi hai, kuch order kar dete hain kya?",BENIGN,BENIGN,train
+MR-S006,Marathi,Caller: मी पोलीस स्टेशनमधून इन्स्पेक्टर बोलतोय. तुमच्या आधार क्रमांकाचा वापर एका बेकायदेशीर कृतीत झाला आहे.,SCAM,AUTHORITY_IMPERSONATION,train
+HI-S005,Hindi,"Caller: जुर्माना भरने के बाद ही यह केस बंद होगा, कृपया बताए गए नंबर पर तुरंत भुगतान करें।",SCAM,FINANCIAL_REQUEST,train
+HI-B010,Hindi,"Person A: पार्सल आज पहुंचने वाला है, जब आए तो मुझे बता देना।",BENIGN,BENIGN,train
+HI-S016,Hindi,"Caller: यह कस्टम विभाग का मामला है। आपके नाम से भेजा गया एक पार्सल जांच में रोका गया है।
+Person A: कौन सा पार्सल? मैंने कुछ नहीं भेजा।
+Caller: यह वेरिफिकेशन के दौरान ही स्पष्ट होगा।",SCAM,AUTHORITY_IMPERSONATION,test
+MR-B010,Marathi,Person A: वीकेंडला कुठेतरी फिरायला जाऊया का?,BENIGN,BENIGN,train
+CS-B016,Code-switched,Person A: Weekend pe kahin ghumne chalte hain kya?,BENIGN,BENIGN,test
+CS-S009,Code-switched,Caller: Agar next 30 minute mein verification nahi hua toh aapka SIM band ho jayega.,SCAM,URGENCY_THREAT,train
+MR-S013,Marathi,"Caller: मी सायबर क्राईम सेलमधून बोलतोय. तुमच्या नावावर एक तक्रार नोंदवली गेली आहे, त्यामुळे चौकशीत सहकार्य करावे लागेल.",SCAM,AUTHORITY_IMPERSONATION,validation
+MR-S008,Marathi,"Caller: कृपया कॉल बंद करू नका आणि बँक शाखेलाही याबद्दल कळवू नका, नाहीतर चौकशीवर परिणाम होईल.
+Person A: मी माझ्या नवऱ्याला सांगू शकते का?
+Caller: नाही, हे पूर्णपणे गुप्त ठेवणे गरजेचे आहे.",SCAM,SECRECY_DEMAND,train
+MR-B006,Marathi,"Person A: उद्याची मीटिंग कोणत्या वेळी आहे, जरा आठवण करून दे.",BENIGN,BENIGN,train
+CS-S014,Code-switched,"Caller: Tumcha naav war arrest warrant yenar aahe, tyala thambavण्यासाठी abhich inquiry madhe part ghyava lagel.
+Person A: Hे toh khup bhitidayak aahe, mi kay karu?
+Caller: Ghabru naka, phakt call var raha.",SCAM,URGENCY_THREAT,test
+MR-B005,Marathi,"Person A: मी बाजारात जात आहे, काही आणायचं आहे का?",BENIGN,BENIGN,train
+MR-B004,Marathi,"Person A: शाळेतून फोन आला की मुलाची तब्येत ठीक नाही, मला आत्ताच जावं लागेल.",BENIGN,BENIGN,train
+EN-S014,English,Caller: I'm speaking from the bank's fraud investigation unit. A case file has been opened linked to your account.,SCAM,AUTHORITY_IMPERSONATION,test
+HI-S013,Hindi,Caller: मैं पुलिस स्टेशन से इंस्पेक्टर बोल रहा हूं। आपके आधार नंबर का इस्तेमाल एक अवैध गतिविधि में हुआ है।,SCAM,AUTHORITY_IMPERSONATION,validation
+EN-S013,English,"Caller: This is regarding a customs matter. A parcel sent under your name has been held for inspection.
+Person A: I haven't sent any parcel.
+Caller: That will become clear once we complete the checks.",SCAM,AUTHORITY_IMPERSONATION,validation
+HI-B009,Hindi,"Person A: बारिश हो रही है, आज छाता लेकर निकलना।",BENIGN,BENIGN,train
+CS-B009,Code-switched,"Person A: Maine khana bana liya hai, tu kab tak aayega?",BENIGN,BENIGN,train
+EN-B011,English,"Person A: The parcel is arriving today, let me know once it comes.",BENIGN,BENIGN,train
+MR-B011,Marathi,"Person A: उद्याचा क्लास कॅन्सल झाला आहे, हे ऐकून बरं वाटलं.",BENIGN,BENIGN,train
+MR-S012,Marathi,"Caller: दंड भरल्यानंतरच हे प्रकरण बंद होईल, कृपया दिलेल्या नंबरवर त्वरित पेमेंट करा.",SCAM,FINANCIAL_REQUEST,validation
+MR-B009,Marathi,"Person A: मी जेवण बनवलं आहे, तू कधीपर्यंत येशील?",BENIGN,BENIGN,train
+EN-B005,English,Person A: The bank called just to remind me that my loan EMI due date is approaching.,BENIGN,BENIGN,train
+MR-B015,Marathi,"Person A: पाऊस पडत आहे, आज छत्री घेऊन निघ.",BENIGN,BENIGN,test
+CS-S016,Code-switched,"Caller: Sir tumcha ek parcel customs madhe hold zala aahe, illegal item sapadla asa report aala aahe.
+Person A: Maine kuch bheja hi nahi.
+Caller: Ho tech verification made clear karu.",SCAM,AUTHORITY_IMPERSONATION,test
+HI-B003,Hindi,"Person A: डॉक्टर के क्लिनिक से कॉल आया था, अपॉइंटमेंट 20 मिनट में है, जल्दी निकलना होगा।
+Person B: ठीक है, मैं अभी गाड़ी निकालता हूं।",BENIGN,BENIGN,train
+EN-S004,English,"Caller: Until we resolve this matter, please keep this conversation private.",SCAM,SECRECY_DEMAND,train
+EN-B013,English,"Person A: My phone isn't charged, so I might reply a bit late.",BENIGN,BENIGN,validation
+EN-S011,English,"Caller: This concerns the Income Tax department. A suspicious transaction has been flagged against your PAN.
+Person A: I have no idea what this is about.
+Caller: That is exactly what this verification will clarify.",SCAM,AUTHORITY_IMPERSONATION,train
+MR-B007,Marathi,"Person A: डिलिव्हरी बॉय OTP विचारत आहे जेणेकरून पार्सलची डिलिव्हरी कन्फर्म होईल, हे नॉर्मलच आहे ना?",BENIGN,BENIGN,train
+MR-S001,Marathi,Caller: पुढील 30 मिनिटांत पडताळणी झाली नाही तर तुमचे सिम कार्ड बंद केले जाईल.,SCAM,URGENCY_THREAT,train
+CS-B011,Code-switched,"Person A: Delivery wala OTP maang raha hai parcel confirm karne ke liye, yeh normal hi hai na?",BENIGN,BENIGN,train
+HI-B012,Hindi,"Person A: कॉलेज का असाइनमेंट कल जमा करना है, अभी तक पूरा नहीं हुआ।",BENIGN,BENIGN,validation
+HI-B016,Hindi,"Person A: मुझे थोड़ा भूख लगी है, कुछ ऑर्डर कर देते हैं क्या?",BENIGN,BENIGN,test
+HI-S011,Hindi,"Caller: कृपया अपने फोन पर आया OTP मुझे बताइए ताकि हम वेरिफिकेशन पूरा कर सकें।
+Person A: लेकिन OTP तो गोपनीय होता है ना?
+Caller: यह सिर्फ हमारे सिस्टम के लिए है, चिंता मत कीजिए।",SCAM,FINANCIAL_REQUEST,train
+CS-B004,Code-switched,"Person A: Kal cha class cancel झाला aahे, हे ऐकून बरं vatlं.",BENIGN,BENIGN,train
+HI-S008,Hindi,"Caller: यह मामला आज ही बंद हो सकता है, वरना कल से आपका बैंक खाता फ्रीज हो जाएगा।",SCAM,URGENCY_THREAT,train
+MR-S015,Marathi,"Caller: हे प्रकरण आजच बंद होऊ शकते, नाहीतर उद्यापासून तुमचे बँक खाते गोठवले जाईल.",SCAM,URGENCY_THREAT,test
+EN-S008,English,"Caller: This inquiry is strictly confidential, please do not mention it to anyone in your family.",SCAM,SECRECY_DEMAND,train
+EN-S015,English,Caller: This is Inspector speaking from the local police station. Your Aadhaar number has been linked to an illegal activity.,SCAM,AUTHORITY_IMPERSONATION,test
+EN-B007,English,"Person A: Tomorrow's class got cancelled, that's a relief.",BENIGN,BENIGN,train
+HI-S003,Hindi,Caller: अगर अगले 30 मिनट में सत्यापन नहीं हुआ तो आपका सिम कार्ड बंद कर दिया जाएगा।,SCAM,URGENCY_THREAT,train
+CS-S015,Code-switched,"Caller: Fine bharल्यानंतरच हे case band होईल, please dilelya number var turant payment kara.",SCAM,FINANCIAL_REQUEST,test
+EN-S010,English,"Caller: To process your refund, I'll need your card number and CVV.",SCAM,FINANCIAL_REQUEST,train
+CS-B008,Code-switched,"Person A: Barish ho rahi hai, aaj chhata leke nikalna.",BENIGN,BENIGN,train
+EN-B002,English,"Person A: I called the bank myself to block my card, they said the process will take a few minutes to complete.",BENIGN,BENIGN,train
+CS-B006,Code-switched,"Person A: Maine khud bank ko call kiya tha card block karne ke liye, unhone kaha process complete hone mein kuch minute lagenge.",BENIGN,BENIGN,train
+HI-B006,Hindi,"Person A: बैंक से कॉल आया था कि लोन की EMI की तारीख नजदीक है, बस याद दिलाने के लिए।",BENIGN,BENIGN,train
+EN-B004,English,"Person A: It's raining, carry an umbrella when you leave today.",BENIGN,BENIGN,train
+EN-S016,English,"Caller: Please don't disconnect the call, and don't inform your bank branch either, or it will affect the investigation.
+Person A: Can I at least tell my husband?
+Caller: No, this needs to remain completely confidential.",SCAM,SECRECY_DEMAND,test
+MR-S004,Marathi,Caller: तुमचे खाते पुन्हा सक्रिय करण्यासाठी एक छोटी प्रोसेसिंग फी यूपीआयद्वारे पाठवावी लागेल.,SCAM,FINANCIAL_REQUEST,train
+MR-S010,Marathi,Caller: जोपर्यंत हे प्रकरण सुटत नाही तोपर्यंत हे संभाषण गुप्त ठेवा.,SCAM,SECRECY_DEMAND,train
+HI-B014,Hindi,"Person A: मैं बाजार जा रहा हूं, कुछ मंगवाना है क्या?",BENIGN,BENIGN,test
+MR-B012,Marathi,"Person A: कॉलेजचा असाइनमेंट उद्या जमा करायचा आहे, अजून पूर्ण झालेला नाही.",BENIGN,BENIGN,validation
+MR-B002,Marathi,"Person A: बँकेतून फोन आला होता की लोनच्या EMI ची तारीख जवळ आली आहे, फक्त आठवण करून देण्यासाठी.",BENIGN,BENIGN,train
+EN-S007,English,"Caller: Please tell me the OTP that just arrived on your phone so we can complete the verification.
+Person A: But isn't the OTP supposed to be confidential?
+Caller: This one is only for our internal system, don't worry.",SCAM,FINANCIAL_REQUEST,train
+MR-B001,Marathi,"Person A: माझा फोन चार्ज नाही, त्यामुळे थोडं उशिरा उत्तर देईन.",BENIGN,BENIGN,train
+HI-S014,Hindi,"Caller: जब तक हम यह मामला सुलझा नहीं लेते, इस बातचीत को गुप्त रखिए।",SCAM,SECRECY_DEMAND,test
+MR-B014,Marathi,"Person A: मी स्वतः बँकेला फोन केला होता कार्ड ब्लॉक करण्यासाठी, त्यांनी सांगितलं प्रक्रिया पूर्ण व्हायला काही मिनिटे लागतील.",BENIGN,BENIGN,test
+MR-S007,Marathi,Caller: रिफंड प्रक्रिया करण्यासाठी तुम्हाला तुमचा कार्ड नंबर आणि सीव्हीव्ही सांगावा लागेल.,SCAM,FINANCIAL_REQUEST,train
+HI-B001,Hindi,"Person A: कल की क्लास कैंसिल हो गई है, यह सुनकर अच्छा लगा।",BENIGN,BENIGN,train
+EN-S002,English,"Caller: If we don't hear back by this evening, your electricity connection will be disconnected.",SCAM,URGENCY_THREAT,train
+EN-B012,English,"Person A: The clinic called, the appointment is in 20 minutes, we need to leave quickly.
+Person B: Okay, I'll get the car out right now.",BENIGN,BENIGN,validation
+EN-B016,English,Person A: Should we go somewhere this weekend?,BENIGN,BENIGN,test
+HI-S001,Hindi,Caller: आज शाम तक अगर जवाब नहीं मिला तो आपका बिजली कनेक्शन काट दिया जाएगा।,SCAM,URGENCY_THREAT,train
+CS-S011,Code-switched,"Caller: Main police station se Inspector bol raha hoon, tumcha Aadhaar number ek illegal activity madhe use zala aahe.",SCAM,AUTHORITY_IMPERSONATION,train
+MR-S005,Marathi,Caller: मी बँकेच्या फ्रॉड विभागातून बोलतोय. तुमच्या खात्याशी संबंधित एक केस फाईल उघडली गेली आहे.,SCAM,AUTHORITY_IMPERSONATION,train
+CS-S008,Code-switched,Caller: Refund process karnyasathi tumhala tumcha card number ani CVV sangava lagel.,SCAM,FINANCIAL_REQUEST,train
+EN-S006,English,"Caller: This matter can be closed today itself, otherwise your bank account will be frozen starting tomorrow.",SCAM,URGENCY_THREAT,train
+CS-B003,Code-switched,"Person A: Bank se call aaya tha loan ki EMI ki date paas aa rahi hai, bas remind karne ke liye.",BENIGN,BENIGN,train
+EN-S012,English,"Caller: If verification isn't completed in the next 30 minutes, your SIM card will be deactivated.",SCAM,URGENCY_THREAT,validation
+MR-B003,Marathi,"Person A: डॉक्टरांच्या क्लिनिकमधून फोन आला होता, अपॉइंटमेंट 20 मिनिटांत आहे, लवकर निघावं लागेल.
+Person B: ठीक आहे, मी लगेच गाडी काढतो.",BENIGN,BENIGN,train
+EN-B003,English,Person A: What time is tomorrow's meeting? Just remind me.,BENIGN,BENIGN,train
+EN-S003,English,"Caller: I am calling from the Cyber Crime Cell. A complaint has been registered under your name, so you need to cooperate with this inquiry.",SCAM,AUTHORITY_IMPERSONATION,train
+EN-B001,English,Person A: The college assignment is due tomorrow and I haven't finished it yet.,BENIGN,BENIGN,train
+HI-B005,Hindi,"Person A: डिलीवरी वाला OTP मांग रहा है ताकि पार्सल की डिलीवरी कन्फर्म हो सके, यह तो नॉर्मल है ना?",BENIGN,BENIGN,train
+CS-B001,Code-switched,"Person A: Main market ja raha hoon, kuch mangwana hai kya?",BENIGN,BENIGN,train
+HI-S015,Hindi,"Caller: मैं साइबर क्राइम सेल से बोल रहा हूं। आपके नाम पर एक शिकायत दर्ज हुई है, इसलिए आपको जांच में सहयोग करना होगा।",SCAM,AUTHORITY_IMPERSONATION,test
+MR-B013,Marathi,"Person A: ट्रेन उशिरा झाली आहे, मला पुढची ट्रेन पकडावी लागेल.",BENIGN,BENIGN,validation
+CS-B014,Code-switched,"Person A: Mera phone charge nahi hai, isliye thodi der se reply karunga.",BENIGN,BENIGN,test
+HI-S002,Hindi,"Caller: यह जांच पूरी तरह गोपनीय है, कृपया इसके बारे में परिवार में किसी को न बताएं।",SCAM,SECRECY_DEMAND,train
+EN-B015,English,"Person A: I'm heading to the market, do you need anything?",BENIGN,BENIGN,test
+HI-B007,Hindi,Person A: वीकेंड पर कहीं घूमने चलते हैं क्या?,BENIGN,BENIGN,train
+EN-S001,English,"Caller: To reactivate your account, a small processing fee needs to be sent via UPI.",SCAM,FINANCIAL_REQUEST,train
+HI-B004,Hindi,"Person A: कल की मीटिंग किस समय है, जरा याद दिला देना।",BENIGN,BENIGN,train
+CS-S012,Code-switched,"Caller: Yeh case aajach band ho sakta hai, warna kaal se tumcha bank account freeze ho jayega.",SCAM,URGENCY_THREAT,validation
+CS-B012,Code-switched,"Person A: School se phone aaya ki bachche ki tabiyat thik nahi hai, mujhe abhi jana hoga.",BENIGN,BENIGN,validation
+CS-S001,Code-switched,"Caller: Main bank ke fraud department se bol raha hoon sir, aapke account se related ek case file open hui hai.",SCAM,AUTHORITY_IMPERSONATION,train
+CS-S002,Code-switched,"Caller: Please call disconnect mat kijiye, aur bank branch ko bhi mat batana, warna investigation affect hoga.
+Person A: Mi mazya navऱ्याला sangू shakte ka?
+Caller: Nahi, hे purnapane guपत thevणे garजेचे aahe.",SCAM,SECRECY_DEMAND,train
+HI-S009,Hindi,"Caller: यह इनकम टैक्स विभाग से संबंधित मामला है। आपके पैन कार्ड पर संदिग्ध लेनदेन पाया गया है।
+Person A: मुझे इसकी जानकारी नहीं है, यह कैसे हुआ?
+Caller: यही जांचने के लिए आपको इस कॉल पर बने रहना होगा।",SCAM,AUTHORITY_IMPERSONATION,train
+HI-B013,Hindi,"Person A: ट्रेन लेट हो गई है, मुझे अगली ट्रेन पकड़नी पड़ेगी।",BENIGN,BENIGN,validation
+CS-S007,Code-switched,"Caller: Jab tak yeh matter solve nahi hota, is baatcheet ko private rakhiye.",SCAM,SECRECY_DEMAND,train
+MR-B008,Marathi,"Person A: पार्सल आज पोहोचणार आहे, आल्यावर मला सांग.",BENIGN,BENIGN,train
+EN-B006,English,"Person A: The delivery person is asking for the OTP to confirm the parcel delivery, that's normal right?",BENIGN,BENIGN,train
+EN-S009,English,"Caller: An arrest warrant is about to be issued in your name. To stop this, you must join the inquiry immediately.
+Person A: This is really frightening, what should I do?
+Caller: Don't panic, just stay on the call.",SCAM,URGENCY_THREAT,train
